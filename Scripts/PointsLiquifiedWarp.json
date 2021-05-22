@@ -1,0 +1,85 @@
+{
+  "progress": 0.15,
+  "points": [
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "chin",
+      "offset" : [ 0.0, -10.0 ],
+      "radius" : [ 100.0, 100.0 ],
+      "angle" : 90.0,
+      "scale" : 60.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "left_cheek",
+      "offset" : [ 0.0, -30.0 ],
+      "radius" : [ 100.0, 100.0 ],
+      "angle" : 135.0,
+      "scale" : 20.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "right_cheek",
+      "offset" : [ 0.0, -30.0 ],
+      "radius" : [ 100.0, 100.0 ],
+      "angle" : 45.0,
+      "scale" : 20.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "nose",
+      "offset" : [ -20.0, 5.0 ],
+      "radius" : [ 30.0, 30.0 ],
+      "angle" : 0.0,
+      "scale" : 4.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "nose",
+      "offset" : [ 20.0, 5.0 ],
+      "radius" : [ 30.0, 30.0 ],
+      "angle" : 180.0,
+      "scale" : 4.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "right_eye",
+      "offset" : [ -4.5, 0.0 ],
+      "radius" : [ 40.0, 40.0 ],
+      "angle" : 0.0,
+      "scale" : 3.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "type" : "shift",
+      "-debug" : true,
+      "anchor" : "left_eye",
+      "offset" : [ 4.5, 0.0 ],
+      "radius" : [ 40.0, 40.0 ],
+      "angle" : 180.0,
+      "scale" : 3.0,
+      "minMax" : [ 0.0, 1.0 ]
+    },
+    {
+      "-type" : "shift",
+      "-debug" : true,
+      "anchor" : "nose",
+      "offset" : [ 0.0, 10.0 ],
+      "radius" : [ 40.0, 40.0 ],
+      "angle" : 90.0,
+      "scale" : 20.0,
+      "minMax" : [ 0.0, 1.0 ]
+    }
+  ]
+}

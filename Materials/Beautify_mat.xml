@@ -1,0 +1,14 @@
+<material>
+    <technique name="Techniques/TextureEffect.xml" quality="0" loddistance="0" />
+    <texture name="Textures/Beautify/Soft_intensity.png" unit="specular">
+        <srgb enable="false" />
+    </texture>
+    <texture name="Textures/Beautify/FaceBlurMask.png" unit="diffuse">
+        <srgb enable="false" />
+    </texture>
+    <parameter name="SoftMix" value="0.65" />
+    <parameter name="RangeMultiplier" value="1.4" />
+    <parameter name="SharpStr" value="1.005" />
+    <parameter name="WhitenStr" value="0.001" />
+</material>
+

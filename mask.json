@@ -1,0 +1,48 @@
+{
+    "name" : "Mask",
+    "section" : "1",
+    "preview" : "Icon.png", 
+
+    "script" : "main.as",
+
+    "effects" : [
+        {
+            "name" : "facemodel",
+            "texture": {
+                "shader" : "Beautify",
+                "material_file" : "Materials/Beautify_mat.xml"
+            },
+            "eyes": true
+        },
+        {
+            "name": "patch",
+            "anchor": "fullscreen",
+            "texture": {
+              "color": [1, 1, 1, 1],
+              "shader": "BSharpen"
+            }
+        },
+        {
+            "name" : "patch",
+            "anchor" : "forehead",
+            "texture" : "Textures/Ear.png",
+            "size" : [25, 25],
+            "offset" : [50, 15, 40]
+        },
+        {
+            "name" : "patch",
+            "anchor" : "forehead",
+            "texture" : {
+                "texture" : "Textures/Ear.png",
+                "u_transform" : [-1.0, 0.0, 1.0]
+            },  
+            "size" : [25, 25],
+            "offset" : [-50, 15, 40]
+        },
+        {
+            "name" : "light",
+            "type" : "ambient", 
+            "color" : [1.0, 1.0, 1.0]
+        }
+    ]
+}
